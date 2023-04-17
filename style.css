@@ -1,0 +1,74 @@
+body{
+    background-color: cornflowerblue;
+}
+.titulo{
+    color: midnightblue;
+}
+.textoIngresado{
+    font-size: 20px;
+    font-family:cursive ;
+    width: 691px;
+    height: 314px;
+    border-color: blue;
+    border-radius: 15px;
+    border-width: 5px;
+    background-color:lightseagreen;
+}
+.boton{
+    margin-left: 125px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:indigo;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .buton:hover {
+    background-color: #3e8e41}
+  
+  .buton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .mostrar{
+    position: fixed;
+    top: 80px;
+    right: 100px;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+#result{
+    border: none;
+    width: 241px;
+    height: 289px;
+    font-size: 20px;
+}
+.btnCopiar{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #efefef;
+    box-shadow: 2px 2px 4px #c8d0e7, -1px -1px 3px #fff;
+    color: #585858;
+  }
+  .btnCopiar {
+    box-shadow: inset 1px 1px 3px #c8d0e7, inset -1px -1px 3px #fff;
+  }
